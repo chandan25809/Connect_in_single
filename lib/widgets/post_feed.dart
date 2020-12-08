@@ -215,62 +215,7 @@ class PostFeed extends StatelessWidget {
               height:1
             ),
             SizedBox(height: 12),
-            // Padding(padding: EdgeInsets.only(left: 15,right: 15),
-            // child: Text("View $viewCount comments",style: TextStyle(
-            //   color: AppStateContainer.of(context).theme.accentColor.withOpacity(0.5),
-            //   fontSize: 15,
-            //   fontWeight: FontWeight.w500
-            // ),),
-            // ),
-            // SizedBox(height: 12,),
-            // Padding(padding: EdgeInsets.only(left: 15,right: 15),
-            // child: Row(
-            //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            //   children: <Widget>[
-            //     Row(
-            //   children: <Widget>[
-            //     Container(
-            //       width: 30,
-            //       height: 30,
-            //       decoration: BoxDecoration(
-            //         shape: BoxShape.circle,
-            //         image: DecorationImage(image: NetworkImage(profileImg),fit: BoxFit.cover)
-            //       ),
-            //     ),
-            //     SizedBox(width: 15,),
-            //     Text("Add a comment...",style: TextStyle(
-            //   color: AppStateContainer.of(context).theme.accentColor.withOpacity(0.5),
-            //   fontSize: 15,
-            //   fontWeight: FontWeight.w500
-            // ),),
-            //   ],
-            // ),
-            // Row(
-            //   children: <Widget>[
-            //     Text("😂",style: TextStyle(
-            //       fontSize: 
-            //       20
-            //     ),),
-            //     SizedBox(width: 10,),
-            //     Text("😍",style: TextStyle(
-            //       fontSize: 
-            //       20
-            //     ),),
-            //     SizedBox(width: 10,),
-            //     Icon(Icons.add_circle,color: AppStateContainer.of(context).theme.accentColor.withOpacity(0.5),size: 18,)
-            //   ],
-            // )
-            //   ],
-            // )
-            // ),
-            // SizedBox(height: 12,),
-            // Padding(padding: EdgeInsets.only(left: 15,right: 15),
-            // child:  Text("$dayAgo",style: TextStyle(
-            //   color: AppStateContainer.of(context).theme.accentColor.withOpacity(0.5),
-            //   fontSize: 15,
-            //   fontWeight: FontWeight.w500
-            // ),),
-            // )
+       
         ],
       ),
     );
